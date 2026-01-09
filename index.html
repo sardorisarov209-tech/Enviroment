@@ -1,38 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      href="https://getbootstrap.com/docs/5.3/assets/css/docs.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Tashqi muhitni saqlash</title>
-</head>
-<body>
-  <div>
-  <header>
-     <div id="logo">   <a href="#" class="logo">Muxtorjon</a></div>
-
-        <nav>
-            <a href="#" class="active"> Home</a>
-            <a href="#">Services</a>
-            <a href="#">Skills</a>
-           
-        </nav>
-    </header>
+    <script
+      defer=""
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    ></script>
+  </head>
+  <body>
+    <div class="row">
+      <div class="col">
+        <header>
+          <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">E-kitob</a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb- 2 lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Boshqa usulda o'qish
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="32-Zarbulmasal.docx.pdf"
+                          >PDF variantni yuklash</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href=""
+                          >Telegramda o'qish uchun telegramdan @e-kitob.com deb
+                          izlang
+                        </a>
+                      </li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="Cristiano Ronaldo dos Santos Aveiro.docx "
+                        >
+                          Word dasturida yozilgan kitoblar</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true"
+                      >Disabled</a
+                    >
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input
+                    class="form-control me-2"
+                    type="search"
+                    placeholder="Izlash"
+                    aria-label="Search"
+                  />
+                  <button class="btn btn-outline-success" type="submit">
+                    Kitobni izlash
+                  </button>
+                </form>
+              </div>
+            </div>
+          </nav>
+        </header>
+      </div>
     </div>
-  <div id="sidebar">
-   <aside>
-     <li>
-       <ul>
-       <a href=""> Bosh sahifa</a> 
-       </ul>
-        <ul>
-       <a href=""> Mening resurslarim</a> 
-       </ul>
-        <ul>
-       <a href=""> Mening profilim</a><img src="icon.png" alt="user" id="img" srcset=""> 
-       </ul>
-     </li>
-    </aside>
-  </div>
-</body>
+    <div id="sidebar">
+      <aside>
+        <li>
+          <ul>
+            <a href=""> Bosh sahifa</a>
+          </ul>
+          <ul>
+            <a href=""> Mening resurslarim</a>
+          </ul>
+          <ul>
+            <a href=""> Mening profilim</a
+            ><img src="ico.png" alt="user" id="imi" srcset="" />
+          </ul>
+        </li>
+      </aside>
+    </div>
+  </body>
 </html>
