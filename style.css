@@ -1,47 +1,33 @@
-@media (max-width: 940px) {
-  aside.sidebar {
-    position: fixed;
-    top: 1em;
-    transform: translateX(-105.5%);
-    height: 90vh;
-    overflow-y: scroll;
-    z-index: 1001 !important;
-    transition: transform 0.3s, background-color 0.3s;
-    padding: 20px;
-  }
+#img {
+  width: 10px;
+  border-radius: 100%;
 }
-aside.sidebar {
-  font-size: 13px !important;
-  line-height: 16.5px;
-}
-
 aside {
-  width: 218px;
-  margin-bottom: 35px;
-  position: sticky;
-  top: 0px;
-  max-height: 100vh;
-  overflow-y: auto;
-  padding-top: 46px;
+  margin-top: 100px;
+  width: 250px;
+  height: 100%;
 }
-
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-main,
-menu,
-nav,
-section {
-  display: block;
+header {
+  margin-top: 20px;
+  position: fixed;
+  top: 0;
+  left: 5px;
+  right: 5px;
+  width: 100%;.
+  padding: 1rem 9%;
+  background-color: transparent;
+  filter: drop-shadow(10px);
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  z-index: 10;
+  background: back;
+  
 }
-
-aside {
-  display: block;
-  unicode-bidi: isolate;
+nav, a{
+  color: black;
+  text-decoration: none;
 }
-
+.logo{
+   justify-content:start;
+}
