@@ -1,0 +1,47 @@
+@media (max-width: 940px) {
+  aside.sidebar {
+    position: fixed;
+    top: 1em;
+    transform: translateX(-105.5%);
+    height: 90vh;
+    overflow-y: scroll;
+    z-index: 1001 !important;
+    transition: transform 0.3s, background-color 0.3s;
+    padding: 20px;
+  }
+}
+aside.sidebar {
+  font-size: 13px !important;
+  line-height: 16.5px;
+}
+
+aside {
+  width: 218px;
+  margin-bottom: 35px;
+  position: sticky;
+  top: 0px;
+  max-height: 100vh;
+  overflow-y: auto;
+  padding-top: 46px;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section {
+  display: block;
+}
+
+aside {
+  display: block;
+  unicode-bidi: isolate;
+}
+
