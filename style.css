@@ -1,7 +1,14 @@
-nav{
+#navbar{
+    margin: 4px;
+    border-radius: 5px;
+}
+#ul{
+    margin: 4px;
+    border-radius: 5px;
+}
+.card{
     margin: 4px;
 }
-.imi{
-    width: 10px;
-    height: 10px;
+#a-teg{
+    text-decoration: none;
 }
