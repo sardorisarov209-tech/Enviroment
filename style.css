@@ -8,6 +8,8 @@
 }
 .card{
     margin: 4px;
+    border-radius: 5px;
+
 }
 #a-teg{
     text-decoration: none;
@@ -20,7 +22,6 @@
 .list-group{
     margin: 4px;
     border-radius: 5px;
-    width: ;
 }
 .list-group-item{
     margin: 2px;
@@ -69,4 +70,96 @@
     background-color: #198754;
     color: white;
     cursor: pointer;
+}
+.card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+.card:focus{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+.card:active{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+.card:hover:focus{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+.card:hover:active{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+.card:focus:active{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+.card:hover:focus:active{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+body{
+    background-color: #f8f9fa;
+}
+footer{
+    background-color: #198754;
+    color: white;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+footer a:hover{
+    color: white;
+    text-decoration: underline;
+}
+footer a:focus{
+    color: white;
+    text-decoration: underline;
+}
+footer a:active{
+    color: white;
+    text-decoration: underline;
+}
+footer a:hover:focus{
+    color: white;
+    text-decoration: underline;
+}
+footer a:hover:active{
+    color: white;
+    text-decoration: underline;
+}
+footer a:focus:active{
+    color: white;
+    text-decoration: underline;
+}
+footer a:hover:focus:active{
+    color: white;
+    text-decoration: underline;
+}
+
+#a-teg{
+    text-decoration: none;
+}
+#a-teg:hover{
+    text-decoration: none;
+}
+#a-teg:focus{
+    text-decoration: none;
+}
+#a-teg:active{
+    text-decoration: none;
+}
+#a-teg:hover:focus{
+    text-decoration: none;
+}
+#a-teg:hover:active{
+    text-decoration: none;
+}
+#a-teg:focus:active{
+    text-decoration: none;
+}
+#a-teg:hover:focus:active{
+    text-decoration: none;
 }
