@@ -12,3 +12,8 @@
 #a-teg{
     text-decoration: none;
 }
+#foot{
+    margin: 4px;
+    justify-content: end;
+    border-radius: 5px;
+}
