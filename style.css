@@ -17,3 +17,56 @@
     justify-content: end;
     border-radius: 5px;
 }
+.list-group{
+    margin: 4px;
+    border-radius: 5px;
+    width: ;
+}
+.list-group-item{
+    margin: 2px;
+    border-radius: 5px;
+}
+.list-group-item.active{
+    background-color: #198754;
+    border-color: #198754;
+}
+.list-group-item:hover{
+    background-color: #198754;
+    color: white;
+    cursor: pointer;
+}
+.list-group-item:disabled{
+    background-color: grey;
+    border-color: grey;
+    cursor: not-allowed;
+}
+.list-group-item:disabled:hover{
+    background-color: grey;
+    color: white;
+    cursor: not-allowed;
+}
+.list-group-item:focus{
+    background-color: #198754;
+    color: white;
+    cursor: pointer;
+}
+.list-group-item:active{
+    background-color: #198754;
+    color: white;
+    cursor: pointer;
+}
+.list-group-item:active:hover{
+    background-color: #198754;
+    color: white;
+    cursor: pointer;
+}
+.list-group-item:active:focus{
+    background-color: #198754;
+    color: white;
+    cursor: pointer;
+}
+.list-group-item:focus:hover{
+    background-color: #198754;
+    color: white;
+    cursor: pointer;
+}
